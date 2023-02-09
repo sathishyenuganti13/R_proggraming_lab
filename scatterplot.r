@@ -1,0 +1,5 @@
+x <- c(1,2,38,23,22,45,77,89,34,56,3,43,59)
+y<- c(4,55,6,22,77,87,2,77,34,21,67,45,61)
+h<- c("x","y")
+plot(x,y,xlab="ranks",ylab="students",main="scatterplot",xlim=c(0,88),ylim=c(0,77))
+pairs(~wt+mpg+disp+cyl,data=h,main="scattermatrix")

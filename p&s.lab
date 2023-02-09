@@ -1,0 +1,10 @@
+rownames=c("row1","row2","row3")
+colnames=c("col1","col2","col3")
+p<- matrix(c(1:9),nrow=3,ncol=3,byrow=TRUE,dimnames=list(rownames,colnames))
+p1<- matrix(c(10:18),nrow=3,byrow=TRUE,dimnames=list(rownames,colnames))
+p1
+print(p1+p)
+print(p1-p)
+print(p*p1)
+print("result is: ")
+                                           
